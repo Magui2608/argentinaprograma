@@ -1,0 +1,57 @@
+Respuestas al practico cero:
+
+1. Escribir un programa JavaScript que:
+a. Dado dos números calcule la resta entre ambos; donde el primer número
+es el minuendo y el segundo es el sustraendo. Imprima el resultado por
+pantalla. Deberá guardar este programa en un archivo llamado: resta.js.
+Ayuda: utilizar console.log.
+● ¿Qué valor devuelve su programa si el minuendo es 10 y el
+sustraendo 2?
+1. a. RESPUESTA: 8
+
+b. Dado tres números calcule la multiplicación entre ellos y lo imprima por
+pantalla. Deberá guardar este programa en un archivo llamado:
+multiplicacion.js. Ayuda: utilizar console.log.
+● ¿Qué valor devuelve su programa si los números son 2 *17 * 6?
+1. b. RESPUESTA: 204
+
+2. Escribir un programa JavaScript que calcule el área de un rectángulo. Deberá
+guardar este programa en un archivo llamado: areaRectangulo.js. Luego,
+responder a las siguientes preguntas utilizando su código para obtener los
+resultados. Ayuda: la ecuación del área de un rectángulo está dada por:
+𝑎𝑟𝑒𝑎 = 𝑏𝑎𝑠𝑒 * 𝑎𝑙𝑡𝑢𝑟𝑎
+a. ¿Cuál es el área de un rectángulo de base 5cm y altura 3cm?
+RESPUESTA: 15
+
+b. ¿Cuál es el área de un rectángulo de base 12.5cm y altura 5.3cm?
+RESPUESTA: 66.25
+
+3. Escribir un programa JavaScript que realice la conversión de grados Fahrenheit
+(F) a grados Celsius (C) . Deberá guardar este programa en un archivo llamado:
+conversionGrados.js. Luego, responder a las siguientes preguntas utilizando
+su código para obtener los resultados. Ayuda: la ecuación de equivalencia está
+dada por:
+𝑐𝑒𝑙𝑠𝑖𝑢𝑠 = (𝑓𝑎ℎ𝑟𝑒𝑛ℎ𝑒𝑖𝑡 − 32) *
+5
+9
+a. ¿Cuántos grados C son 50 F?
+RESPUESTA: 10
+
+b. ¿Cuántos grados C son 75 F?
+RESPUESTA: 23.88888888888889
+
+4. Escribir un programa JavaScript que calcule el promedio de 3 números. Deberá
+guardar este programa en un archivo llamado: promedio3.js. Luego, responder
+a las siguientes preguntas utilizando su código para obtener los resultados. La
+ecuación del promedio entre 3 números está dada por:
+𝑝𝑟𝑜𝑚𝑒𝑑𝑖𝑜 =
+(𝑥 + 𝑦 + 𝑧)
+3
+a. ¿Cuál es el promedio entre 5, 7 y 9?
+RESPUESTA: 7
+
+b. ¿Cuál es el promedio entre -2 , -3, -8?
+RESPUESTA: -4.333333333333333
+
+c. ¿Cuál es el promedio entre -1.2, 5.3, -3.3?
+RESPUESTA: 0.2666666666666666
