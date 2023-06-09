@@ -22,7 +22,7 @@ propiedades/métodos de cadena disponibles para recortar la cita original
 a "Tres tristes tigres comen trigo", y la guardes en una variable
 llamada citaRevisada. Por último, para verificar que el valor de
 citaRevisada es correcto, deberás imprimirla por consola. */
-let citaRevisada = cita.slice(0,31);
+let citaRevisada = cita.slice(0,13) + substring;
 console.log(citaRevisada);
 
 /*Los valores iniciales de cita y substring son los siguientes:
