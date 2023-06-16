@@ -15,35 +15,21 @@ correspondiente almacenado en la estructura de datos elegida.
 tiene 28 días.*/
 
 const readlineSync = require('readline-sync');
-const mensaje = readlineSync.question('Ingrese un numero entero del 1 al 12:\n');
-let mes = ["", "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
-let cantidadDeDias;
 
-// FORMA 1
+const mensaje = readlineSync.question('Ingrese un numero entero del 1 al 12:\n');
+
+let mes = ["", "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+
+let cantidadDeDias = [28, 30, 31];
+
 if (mensaje == 1 || mensaje == 3 || mensaje == 5 || mensaje == 7 || mensaje == 8 || mensaje == 10 || mensaje == 12) {
-    cantidadDeDias = 31;
-    console.log("La cantidad de dias del mes de " + mes[mensaje] + " es " + cantidadDeDias);
+    console.log("La cantidad de dias del mes de %s es %i", mes[mensaje], cantidadDeDias[2]);
 } else if (mensaje == 2) {
-    cantidadDeDias = 28;
-    console.log("La cantidad de dias del mes de " + mes[mensaje] + " es " + cantidadDeDias);
-} else if (mensaje == 4 ||mensaje == 6 || mensaje == 9 || mensaje == 11) {
-    cantidadDeDias = 30;
-    console.log("La cantidad de dias del mes de " + mes[mensaje] + " es " + cantidadDeDias);
-}else {
+    console.log("La cantidad de dias del mes de %s es %i", mes[mensaje], cantidadDeDias[0]);
+} else if (mensaje == 4 || mensaje == 6 || mensaje == 9 || mensaje == 11) {
+    console.log("La cantidad de dias del mes de %s es %i", mes[mensaje], cantidadDeDias[1]);
+} else {
     console.log("El numero ingresado es incorrecto.");
 }
 
-
-
-// FORMA 2 - este codigo no contempla que hacer si se ingresa otro numero diferente al solicitado
-/*
-if (mensaje == 1 || mensaje == 3 || mensaje == 5 || mensaje == 7 || mensaje == 8 || mensaje == 10 || mensaje == 12) {
-    cantidadDeDias = 31;
-} else if (mensaje == 2) {
-    cantidadDeDias = 28;
-} else {
-    cantidadDeDias = 30;
-}
-console.log("La cantidad de dias del mes de " + mes[mensaje] + " es " + cantidadDeDias);
-*/
 
